@@ -7,17 +7,18 @@
 #navbar {
   overflow: hidden;
   display: flex;
-  background-color: #EEE;
-  justify-content: space-between;
-  margin: 0;
+  background-color: rgba(28, 36, 47, .9);
+  justify-content: space-around;
+  margin: 0 2vw 0 0;
   padding: 0;
+  width: 100vw;
 }
 
 /* Navbar links */
 #navbar a {
   float: left;
   display: block;
-  color: #333;
+  color: #DDD;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -31,9 +32,23 @@
 .sticky {
   position: fixed;
   top: 0;
+  width: 100vw;
+  margin: 0 2vw 0 0;
 }
 
-#testing, #testing2 {
+.testing {
 	border: 1px solid red;
 	height: 800px;
+	margin: 10px 0 0 0;
+}
+
+
+#styleing{
+	height: 2px;
+	width: 100vw;
+	background-color: rgba(0, 120, 200, .5);
+}
+
+body{
+	background-color: gray;
 }
