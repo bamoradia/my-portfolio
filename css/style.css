@@ -50,6 +50,11 @@
   background-color: rgba(88, 120, 140, 1);
 }
 
+#contactsvg > img {
+  margin: 0 5px 0 5px;
+  filter: invert(0.8);
+}
+
 
 #styling{
 	height: 2px;
