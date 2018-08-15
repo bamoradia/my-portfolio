@@ -3,29 +3,33 @@
 <head>
 	<title>Badal Moradia</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
 	<header>
-		<nav id='navbar'>
+		<div id='top'>
+		<div id='navbar' class="fixed-top navbar navbar-expand-lg navbar navbar-dark bg-dark" role="navigation" aria-label="navbar">
+			<a href="#homepos">Home</a>
+			<a href="#aboutmepos">About Me</a>
+			<a href="#myprojectspos">Projects</a>
+			<a href="#contactmepos">Contact Me</a>
+		</div>	
+		</div>
+<!-- 		<nav id='navbar'>
 			<a href="#homepos">Home</a>
 			<a href="#aboutmepos">About Me</a>
 			<a href="#myprojectspos">My Projects</a>
 			<a href="#contactmepos">Contact Me</a>
-			<div id='styleing'></div>
+			<div id='styling'></div>
 		</nav>
-		
+ -->		
 	</header>
 	<main>
 		<div id='container'>
 			<div id='homepos' class='testing'>
-				<h3>Badal Moradia</h3>
-				<h4>This will be Home Position</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h1>Badal Moradia</h1>
+				<p>Testing</p>
 			</div>
 			<div id='aboutmepos' class='testing'>
 				<h3>About Me</h3>
@@ -39,14 +43,22 @@
 			<div id='myprojectspos' class='testing'>
 				<h3>My Projects</h3>
 				<div class='project'>
-					<div>
+					<div class='project_container'>
 						<a target="_blank" href="https://bamoradia.github.io/Project_1/"><img id='canvas-image' atl='Canvas Game' src="./images/Canvas_Game.png"></a><br>
 						<a target="_blank" href="https://bamoradia.github.io/Project_1/">Open World Platformer</a>
 					</div>
 					<div>
-						<p>This was the first game I made.</p>
-						<p>I made using HTML Canvas and Javascript.</p>
-						<p>The physics engine from the ground-up.</p>
+						<p>This was the first game I made.<br>I made using HTML Canvas and Javascript.<br>The physics engine was made from the ground-up.</p>
+					</div>
+					
+				</div>
+				<div class='project'>
+					<div>
+						<a target="_blank" href="https://eaze-calendar.herokuapp.com/user"><img id='calendar-image' atl='Calendar App' src="./images/Calendar_App.png"></a><br>
+						<a target="_blank" href="https://eaze-calendar.herokuapp.com/user">Eaze Calendar</a>
+					</div>
+					<div>
+						<p>This was my first full-stack app.<br>The app used Node.js and Express back-end.<br>The calendar allows a user to sign up and add and track their events.</p>
 					</div>
 					
 				</div>
