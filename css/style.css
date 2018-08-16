@@ -42,10 +42,14 @@
   width: 100vw;
   margin: 0 2vw 0 0;
 }
-
+svg {
+  height: 40px;
+  max-width: 100%;
+  /*filter: invert(1);*/
+}
 .testing {
 	/*border: 1px solid red;*/
-	height: 500px;
+	height: auto;
 	margin: 50px 0 0 0;
   background-color: rgba(88, 120, 140, 1);
 }
@@ -53,12 +57,22 @@
   height: auto;
 }
 
-#contactsvg > img {
+#toppos {
+  height: 1px;
+}
+
+#contactsvg > a > img {
   margin: 0 5px 0 5px;
   filter: invert(0.8);
 }
 
-#contactmepos > img {
+.project-right > img {
+  margin: 0 5px 0 5px;
+  height: 40px;
+  width: 100%;
+}
+
+#contactmepos > a > img{
   filter: invert(1);
   height: 60px;
   max-width: 100%;
