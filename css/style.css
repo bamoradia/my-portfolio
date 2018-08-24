@@ -30,8 +30,8 @@
 }
 
 #canvas-image:hover, #calendar-image:hover {
-  -webkit-filter: blur(2px) brightness(.5);
-  filter: blur(2px) brightness(.35);
+  -webkit-filter: blur(0px) brightness(.8);
+  filter: blur(1px) brightness(.9);
 
 }
 
@@ -73,10 +73,11 @@ svg {
 }
 .testing {
 	/*border: 1px solid red;*/
-	height: auto;
+	height: 50vh;
 	margin: 50px 0 0 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 156, 213, 0.5);*/
   box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+  background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
 }
 #myprojectspos {
   height: auto;
@@ -98,7 +99,7 @@ svg {
 }
 
 #contactmepos > a > img{
-  filter: invert(1);
+  /*filter: invert(1);*/
   height: 60px;
   max-width: 100%;
   margin: 20px 20px 0 20px;
