@@ -64,6 +64,10 @@
   font-family: 'Arvo';
 }
 
+.nav-links > a {
+  margin: 5px;
+}
+
 .nav-links > a:hover {
   text-decoration: none;
 }
