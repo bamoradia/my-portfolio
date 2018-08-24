@@ -55,8 +55,20 @@
   opacity: .80;
 }
 
+
+.nav-links {
+  font-family: 'Arvo';
+}
+
+.nav-links > a:hover {
+  text-decoration: none;
+}
+
 #contactmepos {
   padding: 0 0 10vw 0;
+  /*background-image: url('../images/vector.png');*/
+  /*background-size: cover;*/
+  margin: 50px 0 5vh 0;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -92,14 +104,31 @@ svg {
   filter: invert(0.8);
 }
 
+#contactsvg > a:hover {
+  filter: invert(1);
+}
+
+.contactme-svg > a:hover {
+  filter: invert(.3);
+}
+
+.project-main, .project-opposite {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-right {
+  margin: 10vh 10vw;
+}
+
 .tech-stack > img {
   /*margin: 0 3vw 0 3vw;*/
   height: 30px;
   max-width: 100%;
 }
 
-#contactmepos > a > img{
-  /*filter: invert(1);*/
+.contactme-svg > a > img{
+  filter: invert(0);
   height: 60px;
   max-width: 100%;
   margin: 20px 20px 0 20px;
