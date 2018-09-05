@@ -44,9 +44,10 @@
 }
 
 
+
 .project-opposite {
-  display: flex;
   flex-direction: row-reverse;
+  padding: 0 5vw 0 0;
 }
 
 .testing-projects {
@@ -80,6 +81,10 @@
   text-decoration: none;
 }
 
+.description{
+  max-width: 50vw;
+}
+
 #contactmepos {
   padding: 0 0 10vw 0;
   /*background-image: url('../images/vector.png');*/
@@ -101,7 +106,7 @@ svg {
 }
 .testing {
 	/*border: 1px solid red;*/
-	height: 50vh;
+	height: auto;
 	margin: 50px 0 0 0;
   /*background-color: rgba(0, 156, 213, 0.5);*/
   box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
@@ -134,7 +139,7 @@ svg {
 
 .project-main, .project-opposite {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -199,4 +204,14 @@ body{
   /*background-color: rgba(240, 241, 242, 1);*/
 	/*background-color: rgba(197, 203, 203, 1);*/
   /*background-image: url('../images/casey-horner-763014-unsplash.jpg')*/
+}
+
+
+@media screen and (min-width: 10px) and (max-width: 900px){
+  .project-main, .project-opposite {
+    display: inline-block;
+  }
+  .nav-links {
+    display: none;
+  }
 }
