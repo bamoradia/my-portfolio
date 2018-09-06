@@ -37,6 +37,10 @@
 
 }
 
+.topics {
+  font-family: 'Audiowide', cursive;
+}
+
 #logo {
   opacity: 0.7;
   max-height: 7vh;
@@ -68,9 +72,14 @@
   opacity: .80;
 }
 
+.aboutme {
+  padding: 20px;
+}
+
 
 .nav-links {
-  font-family: 'Arvo';
+  /*font-family: 'Arvo';*/
+  font-family: 'Audiowide', cursive;
 }
 
 .nav-links > a {
@@ -85,8 +94,12 @@
   max-width: 50vw;
 }
 
+.allprojects {
+  padding: 10px;
+}
+
 #contactmepos {
-  padding: 0 0 10vw 0;
+  padding: 0 10px 10px 10px;
   /*background-image: url('../images/vector.png');*/
   /*background-size: cover;*/
   margin: 50px 0 5vh 0;
