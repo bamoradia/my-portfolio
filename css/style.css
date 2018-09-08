@@ -4,7 +4,7 @@
 }
 
 
-#canvas-image, #calendar-image, #finegrind-image, #dostuf-image, #safet-image {
+#canvas-image, #calendar-image, #image {
   height: 25vw;
   max-width: 100%;
   margin: 10px;
@@ -33,7 +33,7 @@
   justify-content: space-around;
 }
 
-#canvas-image:hover, #calendar-image:hover, #finegrind-image:hover, #dostuf-image:hover, #safet-image:hover {
+#canvas-image:hover, #calendar-image:hover, #image:hover {
   -webkit-filter: blur(0px) brightness(.8);
   filter: blur(1px) brightness(.9);
 
